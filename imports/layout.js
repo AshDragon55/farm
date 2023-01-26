@@ -1,4 +1,3 @@
-console.warn("layout file")
 import './addanimal.html'
 import './addanimal.js'
 
