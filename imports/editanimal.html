@@ -1,0 +1,29 @@
+<template name="editAnimal">
+    <div class="modal" tabindex="-1" id="editModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Edit Animal</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="typeOfAnimal">Type</span>
+                        <input type="text" class="form-control editAnimalType" aria-label="Type of animal"
+                            aria-describedby="typeOfAnimal">
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="legsOfAnimal">Number of legs</span>
+                        <input type="text" class="form-control editAnimalLegs" aria-label="Number of animal legs"
+                            aria-describedby="legsOfAnimal">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary js-editAnimal" data-bs-dismiss="modal">Save
+                        changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
