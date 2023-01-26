@@ -1,8 +1,8 @@
 Template.addAnimal.events({
     'click .js-saveAnimal'() {
       console.debug("save button clicked")
-        let type = document.querySelector('.animalType').value
-        let legs = document.querySelector('.animalLegs').value
+        let type = document.querySelector('.addanimalType').value
+        let legs = document.querySelector('.addanimalLegs').value
         console.debug(`The ${type} has ${legs} legs`)
         farmdb.insert({
             'type':type,
